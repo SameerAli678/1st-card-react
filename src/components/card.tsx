@@ -1,12 +1,9 @@
-import Link from "next/link";
-import { FaFacebook } from "react-icons/fa";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
-import { IoLogoYoutube } from "react-icons/io";
-import { CiHeart } from "react-icons/ci";
-import { RiShareForwardLine } from "react-icons/ri";
-import { FaRegComment } from "react-icons/fa";
 import Image from "next/image";
+import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
+import { CiHeart } from "react-icons/ci";
+import { FaFacebook, FaRegComment } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+import { RiShareForwardLine } from "react-icons/ri";
 
 interface CardProps {
   name: string;
