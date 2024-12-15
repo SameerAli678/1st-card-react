@@ -23,7 +23,6 @@ const Card = ({
   share,
 }: CardProps) => {
   return (
-    
     <div className="rounded-2xl shadow-xl w-[400px]  mx-auto">
       <div className="bg-blue rounded-t-xl h-20 w-full flex items-end relative justify-center">
         <div className="rounded-full relative border-blue top-6 size-20 border-2">
@@ -73,4 +72,4 @@ const Card = ({
   );
 };
 
-
+export default Card;
