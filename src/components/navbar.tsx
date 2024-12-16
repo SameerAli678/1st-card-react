@@ -1,13 +1,3 @@
-// const Navbar =({
-//     text,
-//     icons,
-// }: NavbarProps) => {
-//     return(
-//         <p></p>
-//     )
-// }
-// export default Navbar;
-
 export default function Navbar() {
   return (
     // <div className="flex w-[full] h-[400px] border-black border-2 bg-blue-950 gap-y-2">
@@ -28,7 +18,7 @@ export default function Navbar() {
     //     </button>
     //   </nav>
     // </div>
-    <div className="flex bg-[#1C1E53] w-full h-[560px]">
+    <div className="flex">
       <div className="flex justify-around w-full h-fit items-center py-5 px-8 text-white border-2">
         <div className="font-bold">Finsweet</div>
         <div className="flex gap-x-4 w-fit items-center ">
@@ -45,4 +35,5 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
