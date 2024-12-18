@@ -1,3 +1,5 @@
+import Button from "./button";
+
 export default function Navbar() {
   return (
     // <div className="flex w-[full] h-[400px] border-black border-2 bg-blue-950 gap-y-2">
@@ -28,9 +30,10 @@ export default function Navbar() {
           <p>Pricing</p>
           <p>FAQ</p>
           <p>Blog</p>
-          <button className="flex px-2 py-1 border rounded-xl border-lime-100 ml-6">
+          <Button text="Contact US" isOutLine/>
+          {/* <button className="flex px-2 py-1 border rounded-xl border-lime-100 ml-6">
             Contact us
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
