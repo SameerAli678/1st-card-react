@@ -1,9 +1,12 @@
+import Image from "next/image";
+import React from "react";
 import Button from "./button";
+import logo from "@/../public/image/image 1.png";
 
-export default function HeroSection() {
+const Herosection = () => {
   return (
-    <div>
-      <div className="flex flex-col border border-black h-[full] w-[full]   m-auto mt-3 ">
+    <div className="grid grid-flow-col gap-x-9">
+      <div className="flex flex-col  h-[full] w-[full]   m-auto mt-3 ">
         <p className="font-bold ms-[80px] mt-14  text-white text-[30px] ">
           Building stellar
           <br /> websites for early <br /> startups
@@ -14,10 +17,24 @@ export default function HeroSection() {
         </p>
         <div>
           <Button text="View our work" className="w-fit ms-20 mt-5  " />
-          <Button text="view pricing"  isOutLine className="text-white border-none "/>
+          <Button
+            text="View Pricing"
+            isOutLine
+            className="text-white text-sm border-none "
+          />
         </div>
       </div>
-      <div></div>
+      <div>
+        <Image
+          src={logo}
+          width={500}
+          height={500}
+          alt="logo"
+          className=" flex text-2xl mt-10  "
+        />
+      </div>
     </div>
   );
-}
+};
+
+export default Herosection;
